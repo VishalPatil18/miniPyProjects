@@ -1,5 +1,6 @@
 # Click on boxes to mark start and end point. Then make some obstacles and once done
 # press SPACE to find the shortest path between the start and end point
+
 import pygame as pg
 import math
 from queue import PriorityQueue
@@ -7,7 +8,7 @@ from queue import PriorityQueue
 
 WIDTH = 600
 WIN = pg.display.set_mode((WIDTH, WIDTH))
-pg.display.set_caption("Path Finder")
+pg.display.set_caption("Shortest Path Finder")
 
 RED = (255, 0, 0)
 GREEN = (0, 255, 0)

@@ -1,6 +1,6 @@
 import pandas as pd
 import datetime 
-import smtplib                                                          # library used for sending mail
+import smtplib															# library used for sending mail
 import os 
 os.chdir(r"A:\Coding\Work\python\PurePy\AutoB'DayWisher")
 
